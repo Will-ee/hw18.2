@@ -1,0 +1,72 @@
+.inline-block{  
+    display:inline-block;
+    vertical-align: top;
+
+}
+nav{
+    width: 73%;
+    padding: 1%;
+
+}
+.logo{ 
+    width:23%;
+    padding: 1%;
+    text-align: center;
+
+}
+.heroImg{
+    height: 600px;
+    padding: 25px;
+
+}
+.content{
+    width: 500px;
+    margin:0 auto;
+    }
+ul{
+    width: 50%;
+    margin-left: auto;
+
+}
+footer{
+    background-color: #373738;
+}
+
+footer ul{
+    display:inline-block;
+    vertical-align:top;
+    
+}
+.flexcontainer{
+    display: flex; 
+    width: 33%;
+    padding: 1%; 
+}
+
+
+.myWork {
+    display: grid;
+    height: 400px;
+    width: 100%;
+    grid-template-columns: 5% 55% 35% 5%;
+    grid-template-rows: 4.5% 41% 41% 4.5%;
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
+
+.mySkills {
+    display: grid;
+    height: 400px;
+    width: 100%;
+    grid-template-columns: 5% 55% 35% 5%;
+    grid-template-rows: 16px 184px 184px 16px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
